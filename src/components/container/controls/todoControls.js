@@ -4,7 +4,7 @@ import './todoControls.css'
 const TodoControls = props => {
     return (
         <div className="to-do-controls">
-            <button className="add-items">New task</button>
+            <button className="add-items" onClick={props.addTask}>New task</button>
         </div>
     );
 };
