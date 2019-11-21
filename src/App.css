@@ -1,0 +1,31 @@
+
+
+@font-face {
+  font-family: Qanelas-bold;
+  src: url(/assets/fonts/Qanelas-Bold.otf);
+}
+
+@font-face {
+  font-family: Qanelas-medium;
+  src: url(/assets/fonts/Qanelas-Medium.otf);
+}
+
+@font-face {
+  font-family: Qanelas-light;
+  src: url(/assets/fonts/Qanelas-Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Qanelas-medium, sans-serif;
+  
+}
+
+body {
+  /* background: url(/assets/background/background.svg);
+  background-repeat: no-repeat; 
+  background-size: cover; */
+  background-color: #100F1D;
+}
